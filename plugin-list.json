@@ -1,1 +1,28 @@
-{}
+{
+    "repository": {
+        "name": "Chatblox Plugins Repository",
+        "url": "https://github.com/storizzi/chatblox-plugins",
+        "owner": "Storizzi",
+        "email": "chatbloxrepo@simonhuggins.com",
+        "lastUpdated": "2024-07-01T12:00:00Z"
+    },
+    "plugins": [
+        {
+            "name": "Weather Plugin",
+            "author": "Storizzi",
+            "email": "author@example.com",
+            "description": "This plugin provides weather information for a specified location using the OpenWeather API.",
+            "llmDescription": "The Weather Plugin allows the user to retrieve weather information for a specified location using the command 'weather [location]'. For example, 'weather London' would return the current weather and forecast for London.",
+            "downloadMethod": "git",
+            "defaultBranch": "main",
+            "developmentBranch": "",
+            "latestReleaseNumber": "1.0.0",
+            "active": true,
+            "lastUpdated": "2024-07-01T12:00:00Z",
+            "latestReleaseTag": "v1.0.0",
+            "downloadUrl": "https://github.com/storizzi/chatblox-plugins",
+            "repoSubdirectory": "weatherPlugin",
+            "categories": "utility,weather"
+        }
+    ]
+}

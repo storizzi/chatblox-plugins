@@ -1,0 +1,34 @@
+{
+  "id": "weatherPlugin",
+  "initialization": {
+    "import": {
+      "fileName": "weatherPlugin.js",
+      "name": "initialize"
+    }
+  },
+  "hooks": {
+    "getWeather": [
+      "getWeather"
+    ]
+  },
+  "commands": [
+    {
+      "key": "weather",
+      "regex": "^weather (.+)$",
+      "type": "plugin",
+      "process": "getWeather",
+      "usage": "weather [location] - Get weather information for the specified location",
+      "parameters": [
+        {
+          "name": "location",
+          "title": "Location Name",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "enabled": true,
+      "source": "plugin:weatherPlugin"
+    }
+  ],
+  "enabled": true
+}
